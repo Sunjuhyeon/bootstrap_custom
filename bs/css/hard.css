@@ -1,0 +1,93 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans KR', sans-serif; */
+
+
+body{
+    color:#222;
+}
+a{ 
+    font-family: 'Noto Sans KR', sans-serif;
+    text-decoration: none;
+}
+li{ 
+    list-style: none;
+}
+
+.bgimg{}
+
+.round,
+a{
+    border-radius: 30px;
+}
+
+.fontS{
+    font-size: 13px;
+    font-weight: 100;
+    letter-spacing: -0.083em;
+}
+
+#sectionSamsung{
+
+}
+#sectionSamsung .thumb1{
+    
+}
+#sectionSamsung .thumb2 a{
+    background: url(https://image.semiconductor.samsung.com/image/samsung/p6/semiconductor/home/feature/230314/th-home-pm9c1a-pc2@2x.png?$ORIGIN_PNG$)
+    center no-repeat;
+    background-size: auto 100%;
+}
+#sectionSamsung .thumb3 a{
+    background: url(https://image.semiconductor.samsung.com/image/samsung/p6/semiconductor/home/feature/220712/th-home-featured%20products-lpddr5x-tab.png?$ORIGIN_PNG$)
+    center no-repeat;
+    background-size: auto 100%;
+}
+#sectionSamsung .thumb4 a{
+    background: url(https://image.semiconductor.samsung.com/image/samsung/p6/semiconductor/home/Endurance_tab.png?$ORIGIN_PNG$)
+    center no-repeat;
+    background-size: auto 100%;
+}
+#sectionSamsung .thumb5 a{
+    background: url(https://image.semiconductor.samsung.com/image/samsung/p6/semiconductor/home/feature/230215/featured_products_Exynos-1380_tab@2x.png?$ORIGIN_PNG$)
+    center no-repeat;
+    background-size: auto 110%;
+}
+#sectionSamsung .thumb6 a{
+    background: url(https://image.semiconductor.samsung.com/image/samsung/p6/semiconductor/home/featured_product/221025/featured_products_isocell-hp3_tab.png?$ORIGIN_PNG$)
+    center no-repeat;
+    background-size: auto 110%;
+}
+
+#sectionSamsung li div{
+    position: relative;
+    height: 0;
+    padding-top: 100%;
+}
+#sectionSamsung .bgimg div a{
+    background-color: rgb(30, 29, 29);
+    padding: 18px;
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+}
+.round a span {
+    display: none;
+}
+/* @media (min-width : 576px) {
+    .round a span{display: block;}
+    #thumb li {grid-column-end: span 12;}
+} 
+small일때는 display:none 그 이상은 display:block
+small일대는 col-12*/
+ 
+
+
+
+
+
+
+
+
+
+
+
